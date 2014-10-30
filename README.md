@@ -7,4 +7,4 @@ Live-Demo Java EE project for [my talk at EclipseCon Europe 2014](https://www.ec
 * Manages books
 * Designed to show advantage of using unit test over integration tests
 
-You may also interested in [presentation slides]( https://github.com/borisbrodski/Talk_2014_10_EclipseCon_Library/raw/master/Talk_2014_10-ECE-Write-cool-scalable-enterprise-application-tests-(FINAL).pdf)
+You may also be interested in [presentation slides]( https://github.com/borisbrodski/Talk_2014_10_EclipseCon_Library/raw/master/Talk_2014_10-ECE-Write-cool-scalable-enterprise-application-tests-(FINAL).pdf)
