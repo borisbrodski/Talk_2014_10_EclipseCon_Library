@@ -18,6 +18,26 @@ class AveragyRatingPerAuthorTest {
 
 	@Test
 	def void twoBooksTest() {
+		val books = #[
+			xbuild(new XFactoryBook) [
+				minimal
+				set [
+					rating = 1
+				]
+			],
+			xbuild(new XFactoryBook) [
+				minimal
+				set [
+					rating = 3
+				]
+			]
+		]
+		
+		stub [
+			bookDAO.getBooksForAuthor(5L)
+			result = books
+		]
+		
 		
 		new LibraryDomain().getAverageRatingPerAuthor(5L) <=> 2.0
 	}
